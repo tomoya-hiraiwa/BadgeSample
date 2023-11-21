@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <item
+            android:id="@+id/menu_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_info_24"
+            android:title="Other" />
+        <item
+            android:id="@+id/menu_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_format_list_bulleted_24"
+            android:title="List" />
+    </group>
+</menu>
